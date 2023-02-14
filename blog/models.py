@@ -5,7 +5,7 @@ from django.utils import timezone
 
 class Post(models.Model):
     """Model Post"""
-    authonr = models.ForeignKey(
+    author = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
         verbose_name=u'Автор'
