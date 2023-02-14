@@ -1,0 +1,1 @@
+# DjangoMan_test
